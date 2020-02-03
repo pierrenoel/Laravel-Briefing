@@ -1,5 +1,7 @@
 # Laravel
 
+![Yeah](https://media.giphy.com/media/LWnCJEjSeS3YY/giphy.gif)
+
 ## Prerequisites
 - HTML,CSS
 - PHP
@@ -16,5 +18,7 @@
 
 ### Progressive enhancement
 
-4. To-do list
+4. To-do list app
 5. Nano blog 
+6. DashboardNow
+
