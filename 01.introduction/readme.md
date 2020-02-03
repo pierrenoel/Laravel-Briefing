@@ -1,12 +1,12 @@
 # Introduction
 
-Laravel is a web application developement framework for PHP. It makes the task of building a database-backend PHP
-much easier than if you simply started from scratch.
-
-Like many frameworks, Laravel provides a way of organizing and designing an application's souce code. If we take a look
-at this own organisation, we see that Laravel uses the "Model View Controller" (MVC). 
+Laravel is a free PHP framework created by Taylor Otwell. Like many frameworks, Laravel provides a way of organizing and designing an application's souce code. If we take a look at its own organisation, we see that Laravel uses the "Model View Controller" (MVC). 
 
 ## Explanation
+
+Let's see the MVC Design Pattern:
+
+![MCV](../assets/mvc.png)
 
 - Model, which defines the data structure and communicate with the database
 - View, which handles the interface between the application and the users
