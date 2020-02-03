@@ -4,21 +4,23 @@
 
 ## Prerequisites
 - HTML,CSS
+- Bootstrap
 - PHP
 - Composer
 
 ### Introduction
 
-1. What is Laravel?
-2. How to do it?
+1. [Introduction Laravel](01.introduction/readme.md)
 
 ### Initiation
 
-3. Try and test
+2. [Just do it](02.justDoIt/readme.md)
 
 ### Progressive enhancement
 
-4. To-do list app
-5. Nano blog 
-6. DashboardNow
+3. To-do list app
+4. Voyager
+
+### Resources
+- [Laravel official](https://laravel.com/)
 
