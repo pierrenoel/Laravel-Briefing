@@ -13,3 +13,44 @@ Let's see the MVC Design Pattern:
 - Controller, which manages data flow and communicate between the Model and the View
 
 All these features make building an app in Laravel much faster than building from scratch. This makes Laravel a popular tool for rapid PHP development.
+
+## Composer
+
+Now you know how a laravel application is based on, it is time to start a new project. The first thing you need is Composer
+
+> Composer is an application-level package manager for the PHP programming language that provides a standard format for managing dependencies of PHP software and required libraries. 
+
+1. Update & upgrade
+
+```terminal
+sudo apt update
+sudo apt upgrade
+ ```
+
+ 2. Install Composer
+
+ ```terminal
+sudo apt install composer
+```
+
+3. Check if it is installed
+   
+```terminal
+composer -v
+```
+
+## Laravel
+
+1. Choose your directory
+   
+```terminal
+cd ~ 
+cd Desktop
+```
+
+2. Create a new laravel project using Composer
+
+```terminal
+composer create-project --prefer-dist laravel/laravel my-app
+```
+

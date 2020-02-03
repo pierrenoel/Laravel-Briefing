@@ -5,8 +5,7 @@
 ## Prerequisites
 - HTML,CSS
 - Bootstrap
-- PHP
-- Composer
+- PHP (OOP)
 
 ### Introduction
 
