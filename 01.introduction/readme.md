@@ -63,4 +63,4 @@ php artisan serve
 
 Now your app is launched on the port 8000
 
-[php artisan serve](../assets/artisanServe.png)
+![php artisan serve](../assets/artisanServe.png)
