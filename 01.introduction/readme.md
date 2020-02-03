@@ -54,3 +54,13 @@ cd Desktop
 composer create-project --prefer-dist laravel/laravel my-app
 ```
 
+3. Launch your new project
+
+```terminal
+cd my-app
+php artisan serve
+```
+
+Now your app is launched on the port 8000
+
+[php artisan serve](../assets/artisanServe.png)
