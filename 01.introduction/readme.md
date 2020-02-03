@@ -65,7 +65,7 @@ Now your app is launched on the port 8000
 
 ![php artisan serve](../assets/artisanServe.png)
 
-4. Your first app
+## Your first app
 
 Now it is time to add some content to your new app 
 
