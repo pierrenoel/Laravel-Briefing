@@ -17,8 +17,8 @@ composer create-project --prefer-dist laravel/laravel API
 ### 1. Configure your database
 
 ```terminal
-    mysql -u username -p
-    create database tasks;
+mysql -u username -p
+create database tasks;
 ```
 
 
