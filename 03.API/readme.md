@@ -32,8 +32,19 @@ create database tasks;
 php artisan make:model Task -mc
 ```
 
+### Task.php
 
+Don't forget to modify the Task model by adding the $fillable array
 
+### TaskController
 
+```php
+...
+use App\Task;
+...
+public function index(){
+    return Task::all()
+}
+```
 
 
