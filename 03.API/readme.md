@@ -26,15 +26,19 @@ mysql -u username -p
 create database tasks;
 ```
 
-### 2. Model, Controller and Routes/API.php
+### 2. Migration, Model, Controller and Routes/API.php
+
+The first thing to do is asking to artisan to make a migration, a model and a controler 
 
 ```
 php artisan make:model Task -mc
 ```
 
-### Task.php
+### The migration one
 
-Don't forget to modify the Task model by adding the $fillable array
+```
+$table->string('title');
+```
 
 ### TaskController
 

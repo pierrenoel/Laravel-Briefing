@@ -22,4 +22,5 @@
 
 ### Resources
 - [Laravel official](https://laravel.com/)
-
+- [Laravel Airlock](https://github.com/laravel/airlock)
+- [Laravel jtw](https://github.com/tymondesigns/jwt-auth)
