@@ -13,9 +13,9 @@ php artisan serve
 1. Create a new route in *web.php*
 
 ```php
-Route::get('/hello',function({
+Route::get('/hello',function(){
     return 'hello';
-}))
+});
 ```
 
 ## Set up a new view
@@ -24,22 +24,22 @@ Route::get('/hello',function({
 
 ## Now the you can show the page when the new url is called
 ```php
-Route::get('/hello',function({
+Route::get('/hello',function(){
     return view('hello');
-}))
+});
 ```
 
 ## Passing your name into the view
 ```php
-Route::get('/hello/{name}',function({
-    return view('hello);
-}))
+Route::get('/hello/{name}',function($name){
+    return view('hello',compact('name'));
+});
 ```
 
 ```html
 ...
 <body>
-{{ name }}
+{{ $name }}
 </body>
 ...
 ```
