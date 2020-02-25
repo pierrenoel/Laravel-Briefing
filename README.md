@@ -14,9 +14,11 @@
 3. [Laravel](01.Introduction/c.laravel.md)
 
 ### Step by step
-1. [Set up your routes](01.Introduction/firstpage.md)
-2. [Create a view]()
-3. [Use the controller]()
+1. [Laravel and its folders & files](02.TheBasics/a.hierachy.md)
+2. [Views]()
+3. [Controllers]()
+4. [Migrations]()
+5. [Models]()
 
 ### Go further
 
