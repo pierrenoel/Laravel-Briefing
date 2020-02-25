@@ -24,8 +24,5 @@ Now your app is launched on the port 8000
 
 ![php artisan serve](../assets/artisanServe.png)
 
-## Your first app
-
-Now it is time to add some content to your new app 
-
-- [Before](../01.Introduction/b.composer.md)
+- [Before](b.composer.md)
+- [Next](../02.TheBasics/readme.md)
