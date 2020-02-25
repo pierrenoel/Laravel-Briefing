@@ -1,6 +1,8 @@
 # PHP Laravel
 ![Laravel](assets/laravel-6-logo.png)
 
+Welcome to Laravel Guide. This tutorial series is designed to provide you with all the information you need to get started with building a web application using Laravel PHP framework. In this article, you will learn What is Laravel? And why we need to use Laravel framework? 
+
 ## Prerequisites
 - HTML,CSS
 - Bulma or Bootstrap
