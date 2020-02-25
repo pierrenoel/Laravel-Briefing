@@ -28,4 +28,4 @@ Now your app is launched on the port 8000
 
 Now it is time to add some content to your new app 
 
--[Before](../01.Introduction/b.composer.md)
+- [Before](../01.Introduction/b.composer.md)

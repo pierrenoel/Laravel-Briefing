@@ -23,5 +23,5 @@ sudo apt install composer
 composer -v
 ```
 
--[Before](../01.Introduction/a.introduction.md)
--[Next](../01.Introduction/c.laravel.md)
+- [Before](../01.Introduction/a.introduction.md)
+- [Next](../01.Introduction/c.laravel.md)
