@@ -4,7 +4,7 @@ Now you understand how routes work, it is the right moment to learn views.
 
 Remember that views are the **'V'** of the **'MVC'** design pattern, that means those are the files that all the users see from your app. The views are called only with **'HTTP'** request **'get'**
 
-## Example
+## Basic example
 
 ```console
 |-resources
@@ -32,6 +32,28 @@ Route::get('/article/edit/{id}',function($id){
 });
 
 ```
+
+## Passing arguments to views
+
+Wait a second, I see a variable **'$id'** in some of the methods? Well to better understand, let us take an another example:
+
+1. First of all, let us create a route **'hello'**.
+
+```php
+Route::get('/hello',function(){
+    return view('hello');
+})
+```
+2. Now I want my route displays my name is my new great view.
+
+```php
+Route::get('/hello/{name}',function($name){
+    return view('hello',compact('name'));
+});
+```
+3. If we add **'/hello/John'** after our url, we are going to see ... nothing.
+
+4. Well, if you want to fixed this, you can add **{{$name}}** in your view. I will explain you better in a few chapters.
 
 ### Exercice (2)
 
