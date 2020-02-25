@@ -46,5 +46,5 @@ Route::get('/article/edit/{id}',function($id){
    - /article/create
    - /article/edit
 
-- [Before](b.routes)
+- [Before](/02.TheBasics/b.routes.md)
 - [Next]()

@@ -59,5 +59,5 @@ Route::delete('/article/{id}',function($id){
 
 
 
-- [Before](a.hierachy.md)
+- [Before](/02.TheBasics/a.hierachy.md)
 - [Next](c.views.md)
