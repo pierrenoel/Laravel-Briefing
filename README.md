@@ -4,16 +4,17 @@
 
 ## Prerequisites
 - HTML,CSS
-- Bootstrap
+- Bulma
 - PHP (OOP)
 
 ### Introduction
 
-1. [Introduction Laravel](01.introduction/readme.md)
+1. [Introduction Laravel](01.Introduction/readme.md)
 
 ### Initiation
 
-2. [Just do it](02.justDoIt/readme.md)
+2.1 [The basics](02.TheBasics/initialisation.md)
+2.2 [Development](02.TheBasics/development.md)
 
 ### Progressive enhancement
 
