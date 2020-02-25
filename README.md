@@ -4,19 +4,19 @@
 
 ## Prerequisites
 - HTML,CSS
-- Bulma
+- Bulma or Bootstrap
 - PHP (OOP)
 
 ### Introduction
 
-1. [Set up Laravel](01.Introduction/setup.md)
-2. [Set up your routes](01.Introduction/firstpage.md)
-3. [Create a view]()
-4. [Use the controller]()
+1. [Introduction](01.Introduction/a.introduction.md)
+2. [Composer](01.Introduction/b.composer.md)
+3. [Laravel](01.Introduction/c.laravel.md)
 
-### Tutorial
-1. [Start a new project]()
-2. 
+### Step by step
+1. [Set up your routes](01.Introduction/firstpage.md)
+2. [Create a view]()
+3. [Use the controller]()
 
 ### Go further
 
