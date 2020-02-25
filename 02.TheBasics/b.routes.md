@@ -46,8 +46,11 @@ Route::put('/article/edit/{id}',function($id){
     ...
 })
 // Delete a specific article
-Route::delete('/article/{id}',function(){
+Route::delete('/article/{id}',function($id){
     ...
 });
 
 ```
+
+- [Before](a.hierachy.md)
+- [Next](c.views.md)

@@ -38,3 +38,5 @@
 * Migrations are in the folder **database/migrations**
 
 Remain that to add some style and some javascript, you need to place them in the **resources** folder!
+
+- [Next](b.routes.md)
