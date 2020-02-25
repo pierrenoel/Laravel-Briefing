@@ -34,12 +34,17 @@ Route::get('/article/edit/{id}',function($id){
 ```
 
 ### Exercice (2)
-```terminal
-1. Take your project 'learningLaravel'
-2. Create a folder 'article' in your views
-3. In this folder, add three files [index.blade.php, create.blade.php]
-4. Adapt the web.php in order to show all the three routes ['/articles','/article/create','/article/edit']
-```
+
+1. Take your project **'learningLaravel'**
+2. Create a folder **'article'** in your views
+3. In this folder, add three files 
+   - index.blade.php
+   - create.blade.php
+   - edit.blade.php
+4. Adapt the web.php in order to show all the three routes
+   - /articles
+   - /article/create
+   - /article/edit
 
 - [Before](b.routes)
 - [Next]()

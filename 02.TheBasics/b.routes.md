@@ -53,10 +53,10 @@ Route::delete('/article/{id}',function($id){
 ```
 
 ### Exercice (1)
-```terminal
-1. Create a new laravel app called learningLaravel
-2. Create a route 'article' whom return an hello world
-```
+
+1. Create a new laravel app called **'learningLaravel'**
+2. Create a route **'article'** whom return an **'hello world'**
+
 
 
 - [Before](a.hierachy.md)
