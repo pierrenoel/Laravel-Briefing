@@ -1,4 +1,4 @@
-# Laravel
+# PHP Laravel
 
 ![Yeah](https://media.giphy.com/media/eoxomXXVL2S0E/giphy.gif)
 
@@ -9,17 +9,19 @@
 
 ### Introduction
 
-1. [Introduction Laravel](01.Introduction/readme.md)
+1. [Set up Laravel](01.Introduction/setup.md)
+2. [Set up your routes](01.Introduction/firstpage.md)
+3. [Create a view]()
+4. [Use the controller]()
 
-### Initiation
+### Tutorial
+1. [Start a new project]()
+2. 
 
-2.1 [The basics](02.TheBasics/initialisation.md)
-2.2 [Development](02.TheBasics/development.md)
+### Go further
 
-### Progressive enhancement
-
-3. To-do list app
-4. Voyager
+1. [To-do list app]()
+2. [Voyager]()
 
 ### Resources
 - [Laravel official](https://laravel.com/)
