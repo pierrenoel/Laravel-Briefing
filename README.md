@@ -1,6 +1,5 @@
 # PHP Laravel
-
-![Yeah](https://media.giphy.com/media/eoxomXXVL2S0E/giphy.gif)
+![Laravel](assets/laravel-6-logo.png)
 
 ## Prerequisites
 - HTML,CSS
@@ -30,3 +29,6 @@
 - [Laravel official](https://laravel.com/)
 - [Laravel Airlock](https://github.com/laravel/airlock)
 - [Laravel jtw](https://github.com/tymondesigns/jwt-auth)
+
+
+![Yeah](https://media.giphy.com/media/eoxomXXVL2S0E/giphy.gif)
