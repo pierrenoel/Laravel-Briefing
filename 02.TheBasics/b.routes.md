@@ -38,11 +38,11 @@ Route::post('/article/create',function(){
     ...
 });
 // Show the form of an article
-Route::get('/article/edit/{id}',function(){
+Route::get('/article/edit/{id}',function($id){
     ...
 });
 // Update this specific article
-Route::put('/article/edit/{id}',function(){
+Route::put('/article/edit/{id}',function($id){
     ...
 })
 // Delete a specific article
