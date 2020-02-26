@@ -2,7 +2,7 @@
 
 For this first step, you are going to create your very first route. But before doing that you need to understand what a route is and how it works.
 
-Routes are the main entrance of a laravel application. That means that when you create a route, you call its controller and of course an specific action.
+Routes are the main entrance of a laravel application. That means when you create a route, you call its controller and of course a specific action.
 
 But before making your very first route, we have to see what a facade is:
 

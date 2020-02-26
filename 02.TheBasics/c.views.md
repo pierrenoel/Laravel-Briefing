@@ -37,7 +37,7 @@ Route::get('/article/create',function(){
 
 Wait a second, I see a variable **'$id'** and a **compact()** function in some of the methods? Well to better understand, let us take an another example:
 
-1. First of all, let us create a route **'hello'**.
+1. First of all, let us create a route **'hello'** whom returns the view **'hello'**
 
 ```php
 Route::get('/hello',function(){

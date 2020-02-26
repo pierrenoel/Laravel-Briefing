@@ -58,7 +58,7 @@ Now you have learned how to setup a new controller and you know what a controlle
 
 - **'/articles** is the name of the route.
 - **'ArticleController** is this route references to that controller, here it is the posts controller.
-- **'@index'** means it searches after the method **index()** in the PostsController.
+- **'@index'** means it searches after the method **index()** in the ArticleController.
 
 #### Exercice (3)
 

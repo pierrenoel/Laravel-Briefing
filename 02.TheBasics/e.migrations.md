@@ -51,7 +51,7 @@ In a migration file, you have two methods **up()** and **down()**
 - **down()** is for reversing the migration
 
 ### let us focus on the **up()** method:
-If we want to add some field in our table, we need to call the object $table and call a specific method. Look at the example below;
+If we want to add some fields in our table, we need to call the object $table and call a specific method. Look at the example below;
 
 ```php
   public function up()
