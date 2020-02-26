@@ -18,14 +18,18 @@ Welcome to Laravel Guide. This tutorial series is designed to provide you with a
 1. [Laravel and its folders & files](02.TheBasics/a.hierachy.md)
 2. [Routes](02.TheBasics/b.routes.md)
 3. [Views](02.TheBasics/c.views.md)
-4. [Controllers]()
-5. [Migrations]()
-6. [Models]()
+4. [Controllers](02.TheBasics/d.controllers.md)
+5. [Migrations](02.TheBasics/e.migrations.md)
+6. [Models](02.TheBasics/f.models.md)
+
+### Exercice **learningLaravel**
+1. [LearningLaravel](03.Exercice/readme.md)
 
 ### Go further
-
-1. [To-do list app]()
-2. [Voyager]()
+1. [Auth]()
+2. [To-do list app]()
+3. [Create an API]()
+4. [Voyager]()
 
 ### Resources
 - [Laravel official](https://laravel.com/)
