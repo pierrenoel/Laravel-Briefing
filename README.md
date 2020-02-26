@@ -22,8 +22,9 @@ Welcome to Laravel Guide. This tutorial series is designed to provide you with a
 5. [Migrations](02.TheBasics/e.migrations.md)
 6. [Models](02.TheBasics/f.models.md)
 
-### Exercice **learningLaravel**
-1. [Continued...](03.Exercice/readme.md)
+### Continued **learningLaravel**
+1. [Step 1](03.Exercice/a.step1.md)
+2. [Step 2](03.Exercice/b.step2.md)
 
 ### Go further
 1. [Auth]()

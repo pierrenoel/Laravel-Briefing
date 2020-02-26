@@ -67,4 +67,4 @@ That means there is nothing in the table yet
 
 ```
 
-## Add some style to our views
+- [Next](03.Exercice/../b.step2.md)
