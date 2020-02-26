@@ -75,4 +75,4 @@ If we want to add some field in our table, we need to call the object $table and
 4. Run your migration
 
 - [Before](/02.TheBasics/d.controllers.md)
-- [Next]()
+- [Next](/f.models.md)
