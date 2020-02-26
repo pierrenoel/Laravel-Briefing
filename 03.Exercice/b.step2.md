@@ -27,4 +27,23 @@ That means that the controller answer the model in order to get data from the da
 
 **TIPS: don't forget to launch your app with a `php artisan serve`**
 
+# Diplay a specific article with the id
+
+Now we are going to select a specific article by its **id**. Don't forget to adapt the route if it is not done yet!
+
+`Route::get('/article/{id},'ArticleController@show');`
+
+```php
+   public function show(Article $article,$id)
+    {
+        $article = Article::findOrFail($id);
+
+        dd($article);
+    }
+
+```
+
+If you go to this url `http://127.0.0.1:8000/article/1`, it is going to show you a collection
+
+![image](../assets/collection.png)
 
