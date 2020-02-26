@@ -63,9 +63,9 @@ Now you have learned how to setup a new controller and you know what a controlle
 #### Exercice (3)
 
 1. Take your previous exercice
-2. Create the postsController file
+2. Create the ArticleController file
 3. Adapt your routes
-4. Return views from the PostsController
+4. Return views from the ArticleController
 
 - [Before](/02.TheBasics/c.views.md)
 - [Next](e.migrations.md)
