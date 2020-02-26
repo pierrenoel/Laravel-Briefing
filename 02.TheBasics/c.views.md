@@ -20,22 +20,22 @@ Remember that views are the **'V'** of the **'MVC'** design pattern, that means 
 Route::get('/articles',function(){
     return view('article.index');
 });
+    
+// Show each article by its id
+Route::get('/article/show/{id}',function($id){
+    return view('article.edit',compact($id));
+});
 
 // Show the form in order to create an article
 Route::get('/article/create',function(){
     return view('article.create');
 });
 
-// Show the form of an article
-Route::get('/article/edit/{id}',function($id){
-    return view('article.edit');
-});
-
 ```
 
 ## Passing arguments to views
 
-Wait a second, I see a variable **'$id'** in some of the methods? Well to better understand, let us take an another example:
+Wait a second, I see a variable **'$id'** and a **compact()** function in some of the methods? Well to better understand, let us take an another example:
 
 1. First of all, let us create a route **'hello'**.
 
@@ -69,12 +69,13 @@ If we look, we see that we are passing the variable **'name'** with the compact 
 2. Create a folder **'article'** in your views
 3. In this folder, add three files 
    - index.blade.php
+   - show.blade.php
    - create.blade.php
-   - edit.blade.php
 4. Adapt the web.php in order to show all the three routes
    - /articles
+   - /article/show/1
    - /article/create
-   - /article/edit
+5. Passing and show the id of the show route
 
 - [Before](/02.TheBasics/b.routes.md)
 - [Next]()
