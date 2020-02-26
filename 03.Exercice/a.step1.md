@@ -1,5 +1,7 @@
 # Exercice learningLaravel
 
+**STOP: Before reading this section, you need to read the second section which is "step by step". If it is the case, welcome onboard!**
+
 Before we continue on this pratice, we have learned three Artisan commands:
 - `php artisan make:controller ArticleController --resource`
 - `php artisan make:model Article`
