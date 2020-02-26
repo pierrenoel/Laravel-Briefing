@@ -1,8 +1,8 @@
 # Laravel and its files & folders
 
-## Short explation
+## Short explanation
 
-|          |               |
+|  Folders        |  Explanation             |
 |----------|-------------  |
 | app |The app directory holds the base code for your Laravel application. |
 | bootstrap |The bootstrap directory contains all the bootstrapping scripts used for your application.  |
