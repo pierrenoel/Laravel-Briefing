@@ -7,6 +7,10 @@ In the root of your project, you have an .env file where you add some details ab
 ## Let us have a look
 
 1. Create your database
+```terminal
+mysql -u username -p
+create database learningLaravel;
+```
 2. Update the .env file
 
 ```terminal
@@ -30,7 +34,7 @@ Before doing that amazing Artisan command, you have to know what is a migration.
 > Migrations are a way to alter and update the database in a structured way instead of using for example "phpmyadmin" directly.
 
 ### Artisan command
-`php artisan make:migration create_posts_table`
+`php artisan make:migration create_articles_table`
 
 ### Where to find them?
 
@@ -38,7 +42,7 @@ Before doing that amazing Artisan command, you have to know what is a migration.
 |-database
     |-migrations
       2014_10_12_000000_create_users_table
-      2014_10_12_000001_create_posts_table
+      2014_10_12_000001_create_articles_table
 ```
 
 ### Explanation
@@ -52,7 +56,7 @@ If we want to add some field in our table, we need to call the object $table and
 ```php
   public function up()
     {
-        Schema::create('posts', function (Blueprint $table) {
+        Schema::create('articles', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('title');
             $table->text('content');

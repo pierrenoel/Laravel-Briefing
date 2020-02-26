@@ -6,11 +6,11 @@ The controller is like the conductor, that means it is the controller who intera
 
 ## How to setup them?
 
-`php artisan make:controller PostsController --resource`
+`php artisan make:controller ArticleController --resource`
 
 If you want to see some Artisan commands, you can type `php artisan`.
 
-**'PostsController'** is the name of the controller, remind that (by convention):
+**'ArticleController'** is the name of the controller, remind that (by convention):
 - you have to name your controllers in the plural
 - you have to add the keyword **Controller**
 
@@ -22,7 +22,7 @@ If you want to see some Artisan commands, you can type `php artisan`.
 |-app
     |-Htpp
         |-Controllers
-          PostsController.php
+          ArticleController.php
 ```
 
 ## Short example
@@ -34,7 +34,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class PostController extends Controller
+class ArticleController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -54,10 +54,10 @@ Now you have learned how to setup a new controller and you know what a controlle
 
 ### How routes reference to a controller?
 
-`Route::get('/posts','PostsController@index');`
+`Route::get('/articles','ArticleController@index');`
 
-- **'/posts** is the name of the route.
-- **'PostsController** is this route references to that controller, here it is the posts controller.
+- **'/articles** is the name of the route.
+- **'ArticleController** is this route references to that controller, here it is the posts controller.
 - **'@index'** means it searches after the method **index()** in the PostsController.
 
 #### Exercice (3)
