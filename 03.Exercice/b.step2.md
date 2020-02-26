@@ -54,3 +54,4 @@ Right, now we can send this collection into the view **show**
 <p>{{ $article->content }}</p>
 ```
 
+- [Next](03.Exercice/../c.step3.md)

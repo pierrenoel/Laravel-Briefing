@@ -25,6 +25,7 @@ Welcome to Laravel Guide. This tutorial series is designed to provide you with a
 ### Continued **learningLaravel**
 1. [Step 1](03.Exercice/a.step1.md)
 2. [Step 2](03.Exercice/b.step2.md)
+3. [Step 3](03.Exercice/c.step3.md)
 
 ### Go further
 1. [Auth]()
