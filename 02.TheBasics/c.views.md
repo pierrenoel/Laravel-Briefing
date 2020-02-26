@@ -57,13 +57,13 @@ Route::get('/hello/{name}',function($name){
 
 If we look, we see that we are passing the variable **'name'** with the compact function. 
 
-#### Parameters of compact function
+### Parameters of compact function
 >> compact() takes a variable number of parameters. Each parameter can be either a string containing the name of the variable, or an array of variable names. The array can contain other arrays of variable names inside it; compact() handles it recursively.
 
-#### Return values
+### Return values
 >> Returns the output array with all the variables added to it.
 
-### Exercice (2)
+#### Exercice (2)
 
 1. Take your project **'learningLaravel'**
 2. Create a folder **'article'** in your views
@@ -78,4 +78,4 @@ If we look, we see that we are passing the variable **'name'** with the compact 
 5. Passing and show the id of the show route
 
 - [Before](/02.TheBasics/b.routes.md)
-- [Next]()
+- [Next](d.controllers.md)

@@ -53,7 +53,7 @@
 
 ```
 
-## The most important folder to keep in mind
+## The most important folders to keep in mind
 
 * Models are in the folder **app**
 * Controllers are in the folder **app/Http/Controllers**
