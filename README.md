@@ -23,12 +23,12 @@ Welcome to Laravel Guide. This tutorial series is designed to provide you with a
 6. [Models](02.TheBasics/f.models.md)
 
 ### Exercice **learningLaravel**
-1. [LearningLaravel](03.Exercice/readme.md)
+1. [Continued...](03.Exercice/readme.md)
 
 ### Go further
 1. [Auth]()
 2. [To-do list app]()
-3. [Create an API]()
+3. [Create an API](/04.GoFurther/3.API.md)
 4. [Voyager]()
 
 ### Resources
