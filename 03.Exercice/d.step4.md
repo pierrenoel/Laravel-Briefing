@@ -1,9 +1,16 @@
 # Updating
-One of the most important step of developing an application is to giving the opportunity to update data from table.
+Like we saw in the previous lesson, we have to pass the ID of the article in the URL. Well now, you're going to create two more routes:
+
+1. `Route::get('/articles/edit/{id}','ArticleController@edit');`
+2. `Route::patch('/articles/edit/{id},'ArticleController@update');`
 
 ## 1. Get the ID of the article
 
+So in order to modify a specific article, we need its ID. So, the only way to do that is to pass the ID in the URL.
+
 `Route::get('/articles/edit/{id}','ArticleController@edit');`
+
+Nothing new with the controller, like seen previously, we get the ID with the **findOrFail** facade, and send all the data to the view **edit**
 
 ```php
     /**
@@ -22,6 +29,10 @@ One of the most important step of developing an application is to giving the opp
 
 ## 2. Show data in the inputs
 
+Something new things appear here:
+1. In action meta, we add the link to the routes, of course with the id of the article.
+2. And in each value, we set the result of the request called previously in the **edit()** function
+
 ```html
 <form method="POST" action="/articles/edit/{{ $article->id }}">
     {{ csrf_field()}}
@@ -34,3 +45,25 @@ One of the most important step of developing an application is to giving the opp
 
 ## 3. Validation & updating in the database
 
+```php
+    public function update(Request $request,$id)
+    {
+       $this->validate(request(),[
+           'title' => 'required',
+           'content' => 'required',
+           'author' => 'required'
+       ]);
+
+       $article =  Article::findOrFail($id);
+
+
+       $article->update([
+            'title' => $request['title'],
+            'content' => $request['content'],
+            'author' => $request['author']
+       ]);
+
+       return redirect('/article/'.$request['id']);
+    }
+
+```
