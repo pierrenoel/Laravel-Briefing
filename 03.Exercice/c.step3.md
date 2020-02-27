@@ -1,4 +1,5 @@
 # Create / update an article
+
 We don't want to create an article each time with **Tinker**. We prefer using a form. So, remember that you can create a route in order to show the form.
 
 `localhost/article/create` => `Route::get('article/create','ArticleController@create');`

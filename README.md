@@ -23,9 +23,11 @@ Welcome to Laravel Guide. This tutorial series is designed to provide you with a
 6. [Models](02.TheBasics/f.models.md)
 
 ### Continued **learningLaravel**
-1. [Step 1](03.Exercice/a.step1.md)
-2. [Step 2](03.Exercice/b.step2.md)
-3. [Step 3](03.Exercice/c.step3.md)
+1. [Using tinker](03.Exercice/a.step1.md)
+2. [Display data in our views](03.Exercice/b.step2.md)
+3. [Create / update an article](03.Exercice/c.step3.md)
+4. [Validation of data]()
+5. [Delete an article]()
 
 ### Go further
 1. [Auth]()
