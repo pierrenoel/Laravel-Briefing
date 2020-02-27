@@ -6,7 +6,7 @@ We don't want to create an article each time with **Tinker**. We prefer using a 
 
 `localhost/article/create` => `Route::get('article/create','ArticleController@create');`
 
-This route returns only a form, in which you are going to display all inputs.
+This route returns only a form, in which you are going to display all the inputs.
 
 ## The form
 
@@ -67,7 +67,7 @@ public function store(Request,$request){
 
 Now, one of the most important step to do is to check if the user did his job, fill all the fields. But, it is not always the case.
 
-**NEVER TRUST USERS**
+**NEVER TRUST USER INPUTS**
 
 ```php
 public function store(Request $request){
