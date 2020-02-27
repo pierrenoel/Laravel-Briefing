@@ -5,3 +5,4 @@
 4. [Controllers](d.Controllers.md)
 5. [Migrations](e.migrations.md)
 6. [Models](f.models.md)
+7. [Blade templates](g.blade.md)

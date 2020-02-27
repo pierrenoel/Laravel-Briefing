@@ -21,6 +21,7 @@ Welcome to Laravel Guide. This tutorial series is designed to provide you with a
 4. [Controllers](02.TheBasics/d.controllers.md)
 5. [Migrations](02.TheBasics/e.migrations.md)
 6. [Models](02.TheBasics/f.models.md)
+7. [Blade Templates](02.TheBasics/g.blade.md)
 
 ### Continued **learningLaravel**
 1. [Using tinker](03.Exercice/a.step1.md)
