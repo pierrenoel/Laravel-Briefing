@@ -11,8 +11,8 @@ Remember that views are the **'V'** of the **'MVC'** design pattern, that means 
     |-views
         |-article
           index.blade.php
-          create.blade.php
-          edit.blade.php  
+          show.blade.php
+          create.blade.php  
 ```
 
 ```php
@@ -37,7 +37,7 @@ Route::get('/article/create',function(){
 
 Wait a second, I see a variable **'$id'** and a **compact()** function in some of the methods? Well to better understand, let us take an another example:
 
-1. First of all, let us create a route **'hello'** whom returns the view **'hello'**
+1. First of all, take the route you have created  **'hello'** in the previous page, copy and paste and adapt it like below:
 
 ```php
 Route::get('/hello',function(){

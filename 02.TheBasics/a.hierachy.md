@@ -55,10 +55,10 @@
 
 ## The most important folders to keep in mind
 
-* Models are in the folder **app**
-* Controllers are in the folder **app/Http/Controllers**
-* Views are in the folder **resources/views**
-* Migrations are in the folder **database/migrations**
+* Models are in the **app** folder
+* Controllers are in the **app/Http/Controllers** folder
+* Views are in the **resources/views** folder
+* Migrations are in the **database/migrations** folder
 
 Remain that to add some style and some javascript, you need to place them in the **resources** folder!
 
