@@ -26,7 +26,7 @@ Welcome to Laravel Guide. This tutorial series is designed to provide you with a
 1. [Using tinker](03.Exercice/a.step1.md)
 2. [Display data in our views](03.Exercice/b.step2.md)
 3. [Create an article](03.Exercice/c.step3.md)
-4. [Delete an article](03.Exercice/d.step4.md)
+4. [Updade an article](03.Exercice/d.step4.md)
 
 
 ### Go further
