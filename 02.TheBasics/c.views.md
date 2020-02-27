@@ -53,7 +53,7 @@ Route::get('/hello/{name}',function($name){
 ```
 3. If we add **'/hello/John'** after our url, we are going to see ... nothing.
 
-4. Well, if you want to fixed this, you can add **{{$name}}** in your view. I will explain you better in a few chapters.
+4. Well, if you want to fix this, you can add **{{$name}}** in your view. I will explain you better in a few chapters.
 
 If we look, we see that we are passing the variable **'name'** with the compact function. 
 

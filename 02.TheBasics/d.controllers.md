@@ -2,7 +2,7 @@
 
 Now it is time to create your first controller but before doing that, you need to know exactly what a controller is and how it works. 
 
-The controller is like the conductor, that means it is the controller who interacts with **Model** to create data for the **View**.
+The controller is like the bandleader, that means it is the controller who interacts with **Model** to create data for the **View**.
 
 ## How to setup them?
 
@@ -11,7 +11,7 @@ The controller is like the conductor, that means it is the controller who intera
 If you want to see some Artisan commands, you can type `php artisan`.
 
 **'ArticleController'** is the name of the controller, remind that (by convention):
-- you have to name your controllers in the plural
+- it begins with a capital letter
 - you have to add the keyword **Controller**
 
 **'--resource'** is a parameter to initiate default methods when the controller is created.
@@ -57,7 +57,7 @@ Now you have learned how to setup a new controller and you know what a controlle
 `Route::get('/articles','ArticleController@index');`
 
 - **'/articles** is the name of the route.
-- **'ArticleController** is this route references to that controller, here it is the posts controller.
+- **'ArticleController** is this route who references to that controller, here it is the posts controller.
 - **'@index'** means it searches after the method **index()** in the ArticleController.
 
 #### Exercice (3)

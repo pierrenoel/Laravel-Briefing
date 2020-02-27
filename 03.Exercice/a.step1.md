@@ -7,7 +7,7 @@ Before we continue on this pratice, we have learned three Artisan commands:
 - `php artisan make:model Article`
 - `php artisan make:migration create_articles_table`
 
-Well, I have a surprise for you! We can initiate the three one in one command:
+Well, I have a surprise for you! We can initiate the three one in only one command:
 
 `php artisan make:model Article -mcr`
 
@@ -49,6 +49,10 @@ That means there is nothing in the table yet
 => true
 
 ```
+
+1. instantiate a new object from the model Article
+2. call each methods from your migration
+3. save them into the database
 
 ### Check the table now
 
