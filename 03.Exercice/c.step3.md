@@ -33,7 +33,7 @@ There is a thing that we need to add in our form. **The csrf token**
 
 ```html
 <form method="POST" action="/article/create">
-    {{ scrf_field() }}
+    {{ csrf_field() }}
     <label for="title">Title of the article</label>
     <input type="text" name="title" id="title">
     <input type="submit" value="Submit"></input> 
@@ -83,9 +83,11 @@ If you try to save data to the table, it is going to show an error:
 
 To fix this problem, the error says you must set the property `title` to fillable. So, you can do this in your model **Article**.
 
+```php
+protected $fillable = ['title'];
 ```
+#### Exercice
+1. Take your project **learningLaravel**
+2. Show a form, get inputs and save them to the database
 
-```
-
-
-- [Next](03.Exercice/../c.step3.md)
+- [Next](03.Exercice/../d.step4.md)
