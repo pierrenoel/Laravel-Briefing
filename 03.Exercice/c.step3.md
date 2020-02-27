@@ -1,10 +1,14 @@
-# Create / update an article
+# Create a new article
+
+## Introduction
 
 We don't want to create an article each time with **Tinker**. We prefer using a form. So, remember that you can create a route in order to show the form.
 
 `localhost/article/create` => `Route::get('article/create','ArticleController@create');`
 
 This route returns only a form, in which you are going to display all inputs.
+
+## The form
 
 ```html
 <form action="#" method="#">
@@ -34,6 +38,35 @@ There is a thing that we need to add in our form. **The csrf token**
     <input type="text" name="title" id="title"">
 </form>
 ```
+
+## Get data from the view
+We see that we send the data to the route **'/article/create'** using the HTTP verb **POST** with references to the controller and the method **store()** **'ArticleController'**.
+
+So now if we want to display all we get from the inputs, we can check by using the object **Request**
+
+```php
+public function store(Request $request){
+    dd($resquest->title()); // dd($request['title'])
+}
+```
+
+### Saving data into the database
+Now, in order to save data into the article table, we have to call the model **Article**.
+
+```php
+public function store(Request,$request){
+    Article::create([
+        'title' => $request['title'],
+        ...
+    ]);
+}
+```
+
+### Validate data before sending them into the database
+
+Now, one of the most important step to do is to check if the user did his job, fill all the fields. But, it is not always the case.
+
+**NEVER TRUST USERS**
 
 
 - [Next](03.Exercice/../c.step3.md)
