@@ -35,7 +35,8 @@ There is a thing that we need to add in our form. **The csrf token**
 <form method="POST" action="/article/create">
     {{ scrf_field() }}
     <label for="title">Title of the article</label>
-    <input type="text" name="title" id="title"">
+    <input type="text" name="title" id="title">
+    <input type="submit" value="Submit"></input> 
 </form>
 ```
 
@@ -67,6 +68,24 @@ public function store(Request,$request){
 Now, one of the most important step to do is to check if the user did his job, fill all the fields. But, it is not always the case.
 
 **NEVER TRUST USERS**
+
+```php
+public function store(Request $request){
+    $this->validate(request(),[
+        'title' => 'required|min:5|max:10'
+    ])
+}
+```
+
+If you try to save data to the table, it is going to show an error:
+
+`Add [title] to fillable property to allow mass assignment on [App\Article].`
+
+To fix this problem, the error says you must set the property `title` to fillable. So, you can do this in your model **Article**.
+
+```
+
+```
 
 
 - [Next](03.Exercice/../c.step3.md)
