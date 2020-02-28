@@ -62,7 +62,7 @@ If we look, we see that we are passing the variable **'name'** with the compact 
    - show.blade.php
    - create.blade.php
 4. Adapt the web.php in order to show all the three routes
-   - /restaurant
+   - /restaurants
    - /restaurant/show/1
    - /restaurant/create
 5. Passing and show the id of the show route
