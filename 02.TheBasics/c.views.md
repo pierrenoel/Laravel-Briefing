@@ -20,17 +20,6 @@ Remember that views are the **'V'** of the **'MVC'** design pattern, that means 
 Route::get('/articles',function(){
     return view('article.index');
 });
-    
-// Show each article by its id
-Route::get('/article/show/{id}',function($id){
-    return view('article.edit',compact($id));
-});
-
-// Show the form in order to create an article
-Route::get('/article/create',function(){
-    return view('article.create');
-});
-
 ```
 
 ## Passing arguments to views
