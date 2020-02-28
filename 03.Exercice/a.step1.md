@@ -50,27 +50,7 @@ That means there is nothing in the table yet
 
 ```
 
-1. instantiate a new object from the model Article
-2. call each methods from your migration
-3. save them into the database
-
-### Check the table now
-
-```terminal
->>> App\Article::get()
-=> Illuminate\Database\Eloquent\Collection {#3019
-     all: [
-       App\Article {#3020
-         id: 1,
-         title: "first title",
-         content: "first content",
-         author: "Pierre",
-         created_at: "2020-02-26 12:41:19",
-         updated_at: "2020-02-26 12:41:19",
-       },
-     ],
-   }
-
-```
+#### Exercice (6)
+1. Add some data to your table **restaurants** with tinker
 
 - [Next](03.Exercice/../b.step2.md)
