@@ -16,10 +16,11 @@ Remember that views are the **'V'** of the **'MVC'** design pattern, that means 
 ```
 
 ```php
-// Display all the articles
-Route::get('/articles',function(){
-    return view('article.index');
+// Show each article by its id
+Route::get('/article/show/{id}',function($id){
+    return view('article.edit',compact($id));
 });
+
 ```
 
 ## Passing arguments to views
