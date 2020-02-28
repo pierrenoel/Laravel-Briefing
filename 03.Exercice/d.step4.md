@@ -46,25 +46,5 @@ Something new things appear here:
 
 ## 3. Validation & updating in the database
 
-```php
-    public function update(Request $request,$id)
-    {
-       $this->validate(request(),[
-           'title' => 'required',
-           'content' => 'required',
-           'author' => 'required'
-       ]);
-
-       $article =  Article::findOrFail($id);
-
-
-       $article->update([
-            'title' => $request['title'],
-            'content' => $request['content'],
-            'author' => $request['author']
-       ]);
-
-       return redirect('/article/'.$request['id']);
-    }
-
-```
+#### Exercice (9)
+1. Give the possiblity of updating a restaurant by using a form

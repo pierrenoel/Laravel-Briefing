@@ -86,8 +86,8 @@ To fix this problem, the error says you must set the property `title` to fillabl
 ```php
 protected $fillable = ['title'];
 ```
-#### Exercice
-1. Take your project **learningLaravel**
+#### Exercice (8)
+1. Take your project **RestaurantLaravel**
 2. Show a form, get inputs and save them to the database
 
 - [Next](03.Exercice/../d.step4.md)

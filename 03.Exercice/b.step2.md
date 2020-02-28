@@ -55,7 +55,7 @@ Right, now we can send this collection into the view **show**
 ```
 
 #### Exercice (7)
-1. Show all the restaurants (Display all the field)
+1. Show all the restaurants (Display all the fields)
 2. Show a specific restaurant by its ID
 
 - [Next](03.Exercice/../c.step3.md)
