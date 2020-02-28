@@ -56,15 +56,15 @@ If we look, we see that we are passing the variable **'name'** with the compact 
 #### Exercice (2)
 
 1. Take your project **'RestaurantsLaravel'**
-2. Create a folder **'restaurant'** in your views
+2. Create a folder **'restaurants'** in your views
 3. In this folder, add three files 
    - index.blade.php
    - show.blade.php
    - create.blade.php
 4. Adapt the web.php in order to show all the three routes
-   - /articles
-   - /article/show/1
-   - /article/create
+   - /restaurant
+   - /restaurant/show/1
+   - /restaurant/create
 5. Passing and show the id of the show route
 
 - [Before](/02.TheBasics/b.routes.md)
