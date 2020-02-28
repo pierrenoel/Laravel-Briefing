@@ -37,7 +37,7 @@ Route::get('/article/create',function(){
 
 Wait a second, I see a variable **'$id'** and a **compact()** function in some of the methods? Well to better understand, let us take an another example:
 
-1. First of all, take the route you have created  **'restaurant'** in the previous page, adapt it like below:
+1. First of all, take the route "get" you have created in the previous page, adapt it like below:
 
 ```php
 Route::get('/hello',function(){
