@@ -23,9 +23,9 @@ class Article extends Model
 
 #### Exercice (5)
 
-1. Take your previous exercice **learningLaravel**
-2. Create a model Article
-3. Add the variable $table
+1. Take your previous exercice **RestaurantsLaravel**
+2. Create a model Restaurant
+3. Link the model with your database
 
 - [Before](/02.TheBasics/e.migrations.md)
 - [Next]()

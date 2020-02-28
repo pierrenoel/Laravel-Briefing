@@ -41,7 +41,7 @@
         |-sass
     |-views
         |-posts
-          index.blade.php    
+          index.blade.php
 |-routes
   web.php
 |-storage

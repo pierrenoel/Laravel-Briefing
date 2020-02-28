@@ -70,12 +70,16 @@ If we want to add some fields in our table, we need to call the object $table an
 
 #### Exercice (4)
 
-1. Take your previous exercice **learningLaravel**
-2. Create a migration called **Articles**
+1. Take your previous exercice **RestaurantsLaravel**
+2. Create a migration called **Restaurant**
 3. Add three fields 
-   1. title => string type
-   2. content => text type
-   3. author => string type
+   1. name => string type
+   2. address => string type
+   3. zipCode => int type
+   4. town => string type
+   5. country => sting type
+   6. description => text type
+   7. review => int type
 4. Run your migration
 
 - [Before](/02.TheBasics/d.controllers.md)

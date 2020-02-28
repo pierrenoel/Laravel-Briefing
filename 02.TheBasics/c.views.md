@@ -65,8 +65,8 @@ If we look, we see that we are passing the variable **'name'** with the compact 
 
 #### Exercice (2)
 
-1. Take your project **'learningLaravel'**
-2. Create a folder **'articles'** in your views
+1. Take your project **'RestaurantsLaravel'**
+2. Create a folder **'restaurant'** in your views
 3. In this folder, add three files 
    - index.blade.php
    - show.blade.php

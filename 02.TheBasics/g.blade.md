@@ -84,7 +84,7 @@ For instance:
 @section('title','My first page')
 
 @section('content')
-    <p>lorem ipsum...</p>
+    <p>lorem ipsum...</p> 
 @endsection
 
 ```
