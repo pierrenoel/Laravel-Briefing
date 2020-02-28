@@ -65,7 +65,8 @@ If we look, we see that we are passing the variable **'name'** with the compact 
    - /restaurants
    - /restaurant/show/1
    - /restaurant/create
-5. Passing and show the id of the show route
+5. Each route must return a view
+6. Passing and show the id of the **show** route
 
 - [Before](/02.TheBasics/b.routes.md)
 - [Next](d.controllers.md)
