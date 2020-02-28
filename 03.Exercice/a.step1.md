@@ -52,5 +52,4 @@ That means there is nothing in the table yet
 
 #### Exercice (6)
 1. Add some data to your table **restaurants** with tinker
-
 - [Next](03.Exercice/../b.step2.md)

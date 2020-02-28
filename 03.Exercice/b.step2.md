@@ -54,4 +54,8 @@ Right, now we can send this collection into the view **show**
 <p>{{ $article->content }}</p>
 ```
 
+#### Exercice (7)
+1. Show all the restaurants
+2. Show a specific restaurant by its ID
+
 - [Next](03.Exercice/../c.step3.md)
