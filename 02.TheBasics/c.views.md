@@ -27,14 +27,14 @@ Route::get('/article/show/{id}',function($id){
 
 Wait a second, I see a variable **'$id'** and a **compact()** function in some of the methods? Well to better understand, let us take an another example:
 
-1. First of all, take the route "get" you have created in the previous page, adapt it like below:
+1. First of all, take the route "get" we have created in the previous page, now we adapt it.
 
 ```php
 Route::get('/hello',function(){
     return view('hello');
 })
 ```
-2. Now I want my route displays my name is my new great view.
+2. Now I want my route displays my name in my new view.
 
 ```php
 Route::get('/hello/{name}',function($name){
