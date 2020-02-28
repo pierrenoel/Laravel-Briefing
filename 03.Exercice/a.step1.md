@@ -1,4 +1,4 @@
-# Exercice learningLaravel
+# To be continued ... (1)
 
 **STOP: Before reading this section, you need to read the second section which is "step by step". If it is the case, welcome aboard!**
 

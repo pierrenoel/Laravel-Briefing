@@ -23,7 +23,7 @@ Welcome to Laravel Guide. This tutorial series is designed to provide you with a
 6. [Models](02.TheBasics/f.models.md)
 7. [Blade Templates](02.TheBasics/g.blade.md)
 
-### Continued **learningLaravel**
+### To be continued...
 1. [Using tinker](03.Exercice/a.step1.md)
 2. [Display data in our views](03.Exercice/b.step2.md)
 3. [Create an article](03.Exercice/c.step3.md)

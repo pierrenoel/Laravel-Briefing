@@ -1,4 +1,5 @@
-# Updating
+# To be continued ... (4)
+
 Like we saw in the previous lesson, we have to pass the ID of the article in the URL. Well now, you're going to create two more routes:
 
 1. `Route::get('/articles/edit/{id}','ArticleController@edit');`

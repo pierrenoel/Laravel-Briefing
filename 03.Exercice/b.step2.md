@@ -1,4 +1,4 @@
-# Display data in our views
+# # To be continued ... (2)
 
 First, make sure you have at least more than one article in your table. 
 Now, we are going to adapt your code in order to display the title, the content and the author of each article.
