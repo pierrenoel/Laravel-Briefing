@@ -6,7 +6,7 @@ Laravel is a free PHP framework created by Taylor Otwell. Like many frameworks, 
 
 Let's see the MVC Design Pattern:
 
-![MCV](../assets/mvc.png)
+![MCV](../assets/MVC-1.png)
 
 - Model, which defines the data structure and communicate with the database
 - View, which handles the interface between the application and the users
