@@ -44,7 +44,22 @@ Something new things appear here:
 
 ```
 
-## 3. Validation & updating in the database
+## 3. Validation messages
+When you add some validation rules in your controller, you can show these errors in your view.
+
+```html
+<form>
+    ...
+     @if($errors->has('title'))
+        <small class="error">{{ $errors->first('title') }}</small>
+    @endif
+    ...
+</form>
+
+```
+Before finishing this section, all the message errors can be changed in **/resources/lang/en**. 
+
 
 #### Exercice (9)
 1. Give the possiblity of updating a restaurant by using a form
+2. Don't forget to display errors in your view!
