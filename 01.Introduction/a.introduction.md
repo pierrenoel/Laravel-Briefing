@@ -2,7 +2,7 @@
 
 Laravel is a free PHP framework created by Taylor Otwell. Like many frameworks, Laravel provides a way of organizing and designing an application's souce code. If we take a look at its own organisation, we see that Laravel uses the "Model View Controller" (MVC). 
 
-## Explanation
+## Explanation of MVC
 
 ![MCV](../assets/MVC-1.png)
 
