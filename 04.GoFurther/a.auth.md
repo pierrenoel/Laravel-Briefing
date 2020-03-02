@@ -34,6 +34,6 @@ Route::group(['middleware' => 'auth'],function(){
 #### Exercice (10)
 1. You create a dashboard for the **RestaurantLaravel** project
 2. That means, you create the model, the controller and the views
-3. In your loginController, add this function to attempt the login `attempt([])`
+3. In your loginController, add this function to attempt the login `Auth::attempt([])`
 4. Protect your dashboard routes with the **auth** middleware
  
