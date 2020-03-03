@@ -10,7 +10,7 @@ In this section, we are going to learn how to user **Voyager**, but before doing
 - An easy way to add/edit/delete data for your app
 - A menu builder (build menus in Voyager for your app)
 - A media manager for your files
-- CRUD/BREAD generator (learn more about BREAD here)
+- CRUD/BREAD generator
 
 Voyager is simply an admin for your Laravel app. Whatever you want. ([source](https://voyager-docs.devdojo.com/getting-started/what-is-voyager))
 
