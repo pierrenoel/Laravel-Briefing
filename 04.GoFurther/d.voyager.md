@@ -42,3 +42,17 @@ Replace this line `APP_URL=http://localhost` in your `.env` with this line `APP_
 
 ## Making a blog
 
+1. Create a model & a controller `Article` with artisan
+2. Create a new table **articles** in `Tools\Database`
+   1. Add three fields (title,content,image)
+   2. Don't forget to add the timestamps fields
+
+![create table](../assets/Voyager/001.png)
+
+3. Edit the rows for the articles table, change the input type for the image field
+
+![articles tables](../assets/Voyager/002.png)
+
+4. Add a new article in the **articles** section (Appears in the right)
+
+5. Now, you have to display all the articles with the route `/articles`. And guess what? You already know how to do that.
