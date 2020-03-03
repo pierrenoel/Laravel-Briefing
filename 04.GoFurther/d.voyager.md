@@ -30,9 +30,15 @@ Now you can launch your app : `http://127.0.0.1:8000/admin`
 
 ## Configuration
 
+### Create an admin account
+
 You have to create a new admin user in order to connect to your new dashboard page.
 
 `php artisan voyager:admin yourmail@mail.com --create`
+
+### Images not showing? 
+
+Replace this line `APP_URL=http://localhost` in your `.env` with this line `APP_URL=http://localhost:8000` 
 
 ## Making a blog
 
