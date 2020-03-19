@@ -28,4 +28,4 @@ class Article extends Model
 3. Link the model with your database
 
 - [Before](/02.TheBasics/e.migrations.md)
-- [Next]()
+- [Next](/02.TheBasics/g.blade.md)
