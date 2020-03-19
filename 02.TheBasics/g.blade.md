@@ -88,5 +88,5 @@ For instance:
 @endsection
 
 ```
-- [Before](/f.models.md)
+- [Before](/02.TheBasics/f.models.md)
 - [Next](../03.Exercice/readme.md)
