@@ -5,7 +5,10 @@ One of the greatest thing in Laravel is the authentification. Laravel provides a
 ## 1. Use Auth from Laravel
 
 ## a. Install the dependances
-`composer required ui bootstrap --auth`
+```
+composer require laravel/ui
+php artisan ui vue --auth
+```
 
 ## b. Install bootstrap
 ```terminal
@@ -20,7 +23,7 @@ Nothing new for this section, you already know a lot of things...
 
 ### A.Middlewares
 
-Sometimes, you want to "protect" some of your routes, for instance, in order to create a dashboard, to do that, you are going to use a middleware. 
+Sometimes, you want to "protect" some of your routes, for instance, to protect your dashboard, you are going to use a middleware. 
 
 >> Middleware acts as a bridge between a request and a response.
 
