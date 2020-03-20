@@ -31,10 +31,9 @@ Welcome to Laravel Guide. This tutorial series is designed to provide you with a
 
 
 ### Go further
-1. [Auth](04.GoFuther/../04.GoFurther/a.auth.md)
-2. [To-do list app]()
-3. [Create an API](/04.GoFurther/c.API.md)
-4. [Voyager](/04.GoFurther/d.voyager.md)
+1. [Auth](a.auth.md)
+2. [Create an API](b.API.md)
+3. [Voyager](c.voyager.md)
 
 ### Resources
 - [Laravel official](https://laravel.com/)
