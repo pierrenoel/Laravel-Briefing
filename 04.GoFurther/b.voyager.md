@@ -58,3 +58,4 @@ Replace this line `APP_URL=http://localhost` in your `.env` with this line `APP_
 5. Now, you have to display all the articles with the route `/articles`. And guess what? You already know how to do that.
 
 **TIPS** => display images in your view `{{ Voyager::image($article->image) }}`
+
