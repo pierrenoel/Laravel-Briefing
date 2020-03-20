@@ -17,7 +17,7 @@ Voyager is simply an admin for your Laravel app. Whatever you want. ([source](ht
 ## How to install it?
 
 ``` terminal
-require tcg/voyager
+composer require tcg/voyager
 php artisan voyager:install
 php artisan serve
 ```
