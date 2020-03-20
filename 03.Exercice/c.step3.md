@@ -90,4 +90,5 @@ protected $fillable = ['title'];
 1. Take your project **RestaurantLaravel**
 2. Show a form, get inputs and save them to the database
 
+- [Before](/03.Exercice/b.step2.md)
 - [Next](03.Exercice/../d.step4.md)

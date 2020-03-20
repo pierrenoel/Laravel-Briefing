@@ -58,4 +58,5 @@ Right, now we can send this collection into the view **show**
 1. Show all the restaurants (Display all the fields)
 2. Show a specific restaurant by its ID
 
+- [Before](/03.Exercice/a.step1.md)
 - [Next](03.Exercice/../c.step3.md)
