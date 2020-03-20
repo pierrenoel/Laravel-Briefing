@@ -49,7 +49,7 @@ Replace this line `APP_URL=http://localhost` in your `.env` with this line `APP_
 
 ![create table](../assets/Voyager/001.png)
 
-3. Edit the rows for the articles table, change the input type for the image field
+3. Edit the rows for the articles table, change the input type for the image field (Add BREAD to this table)
 
 ![articles tables](../assets/Voyager/002.png)
 
