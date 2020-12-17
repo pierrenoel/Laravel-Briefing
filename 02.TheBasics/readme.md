@@ -6,3 +6,5 @@
 5. [Migrations](e.migrations.md)
 6. [Models](f.models.md)
 7. [Blade templates](g.blade.md)
+
+![Step by step](../assets/step.gif)
