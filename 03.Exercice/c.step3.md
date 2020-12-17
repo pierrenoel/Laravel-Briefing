@@ -4,7 +4,7 @@
 
 We don't want to create an article each time with **Tinker**. We prefer using a form. So, remember that you can create a route in order to show the form.
 
-`localhost/article/create` => `Route::get('article/create','ArticleController@create');`
+`localhost/article/create` => `Route::get('article/create',['CreateController::class','create']');`
 
 This route returns only a form, in which you are going to display all the inputs.
 
@@ -23,7 +23,7 @@ The basic of you form is created, Laravel needs some more informations in order 
 
 Don't forget to add this route:
 
-`Route::post('/article/create','articleController@store');`
+`Route::post('/article/create',['ArticleController::class','store']);`
 
 There is a thing that we need to add in our form. **The csrf token**
 

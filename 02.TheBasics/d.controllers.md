@@ -54,11 +54,15 @@ Now you have learned how to setup a new controller and you know what a controlle
 
 ### How routes reference to a controller?
 
-`Route::get('/articles','ArticleController@index');`
+```php
+use App\Http\Controllers\ArticleController;
+
+Route::get('/articles',['AuthController::class','index']);
+
+```
 
 - **'/articles** is the name of the route.
-- **'ArticleController** is this route who references to that controller, here it is the posts controller.
-- **'@index'** means it searches after the method **index()** in the ArticleController.
+- **['AuthController:class,'index',]** is this route who references to that controller directly assign to the index method.
 
 #### Exercice (3)
 
