@@ -65,4 +65,3 @@ Before finishing this section, all the message errors can be changed in **/resou
 2. Don't forget to display errors in your view!
 
 - [Before](/03.Exercice/c.step3.md)
-- [Next](../04.GoFurther/readme.md)

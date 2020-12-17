@@ -60,6 +60,6 @@
 * Views are in the **resources/views** folder
 * Migrations are in the **database/migrations** folder
 
-Remain that to add some style and some javascript, you need to place them in the **resources** folder!
+Remain that to add some style and some javascript, you need to place them in the **Routes** folder!
 
 - [Next](b.routes.md)
