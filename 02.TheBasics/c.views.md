@@ -45,6 +45,8 @@ Route::get('/hello/{name}',function($name){
 
 4. Well, if you want to fix this, you can add **{{$name}}** in your view. I will explain you better in a few chapters.
 
+`FYI: files in the view end with a blade.php`
+
 If we look, we see that we are passing the variable **'name'** with the compact function. 
 
 ### Parameters of compact function

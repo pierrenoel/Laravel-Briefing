@@ -62,7 +62,7 @@ Route::get('/articles',['AuthController::class','index']);
 ```
 
 - **'/articles** is the name of the route.
-- **['AuthController:class,'index',]** is this route who references to that controller directly assign to the index method.
+- **['AuthController::class,'index',]** is this route who references to that controller directly assign to the index method.
 
 #### Exercice (3)
 

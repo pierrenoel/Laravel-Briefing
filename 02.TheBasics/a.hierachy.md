@@ -55,11 +55,11 @@
 
 ## The most important folders to keep in mind
 
-* Models are in the **app** folder
+* Models are in the **app/models** folder
 * Controllers are in the **app/Http/Controllers** folder
 * Views are in the **resources/views** folder
 * Migrations are in the **database/migrations** folder
 
-Remain that to add some style and some javascript, you need to place them in the **Routes** folder!
+Remain that to add some style and some javascript, you need to place them in the **public** folder!
 
 - [Next](b.routes.md)
