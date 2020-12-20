@@ -29,6 +29,9 @@ Welcome to Laravel Guide. This tutorial series is designed to provide you with a
 3. [Create an article](03.Exercice/c.step3.md)
 4. [Updade an article](03.Exercice/d.step4.md)
 
+### Challenge
+1. [Invoices and so on ...](Challenge/README.md)
+
 ### Resources
 - [Laravel official](https://laravel.com/)
 - [Laravel JetStream](https://jetstream.laravel.com/1.x/features/authentication.html)
