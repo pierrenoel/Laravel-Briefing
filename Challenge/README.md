@@ -9,7 +9,3 @@ If you have enough time and you want to improve your learning about Laravel, you
 
 ### The result
 - To see the result, you can see the printscreens in this folder.
-
-## Some resources
-- [Authentification](https://laravel.com/docs/8.x/authentication#authenticating-users)
-
