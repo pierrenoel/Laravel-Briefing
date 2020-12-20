@@ -1,6 +1,6 @@
 # Need a challenge?
 
-If you have enough time and you want to improve your learning about Laravel, you can code this project. Remind that exercises is absolutely not an obligation!
+If you have enough time and you want to improve your learning about Laravel, you can code this project. Remind that exercise is absolutely not an obligation!
 
 ## Invoices and so on ...
 

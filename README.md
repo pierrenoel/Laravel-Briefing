@@ -30,7 +30,7 @@ Welcome to Laravel Guide. This tutorial series is designed to provide you with a
 4. [Updade an article](03.Exercice/d.step4.md)
 
 ### Challenge
-1. [Invoices and so on ...](Challenge/README.md)
+1. [Invoices and so on ...](Challenge)
 
 ### Resources
 - [Laravel official](https://laravel.com/)
