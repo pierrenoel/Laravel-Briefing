@@ -103,21 +103,6 @@ So, let us create a new object request
         return true;
     }
 ```
-
-Then use it ;)
-
-```php
-use App\Http\Requests\CreatePostRequest;
-
-...
-public function store(CreatePostRequest $request)
-{
-    //
-}
-...
-
-```
-
 Set **true** to the return value.
 
 Then, create two methods:
@@ -139,6 +124,20 @@ Then, create two methods:
           'name.max' => 'Maximum 5 letters please!'
         ];
     }
+```
+
+Then use it ;)
+
+```php
+use App\Http\Requests\CreatePostRequest;
+
+...
+public function store(CreatePostRequest $request)
+{
+    //
+}
+...
+
 ```
 
 #### Exercice (8)
