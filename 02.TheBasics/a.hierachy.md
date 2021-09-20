@@ -20,7 +20,8 @@
     |-Htpp
         |-Controllers
           PostController.php
-  Post.php
+    |-Models
+      Post.php
 |-bootstrap
 |-config
     app.php
@@ -55,7 +56,7 @@
 
 ## The most important folders to keep in mind
 
-* Models are in the **app/models** folder
+* Models are in the **app/Models** folder
 * Controllers are in the **app/Http/Controllers** folder
 * Views are in the **resources/views** folder
 * Migrations are in the **database/migrations** folder

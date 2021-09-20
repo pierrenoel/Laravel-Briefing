@@ -45,9 +45,6 @@ As we know, most of the web application fellows the same layout, so the best way
 
 ```
 |-resources
-    |-assets
-        |-js
-        |-sass
     |-views
         |-posts
           index.blade.php   

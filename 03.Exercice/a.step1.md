@@ -37,7 +37,7 @@ That means there is nothing in the table yet
 ### Add data into the articles table
 
 ```terminal
->>> $article = new App\Article;
+>>> $article = new App\Models\Article;
 => App\Article {#3010}
 >>> $article->title = "first title";
 => "first title"

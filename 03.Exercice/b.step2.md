@@ -7,14 +7,12 @@ Now, we are going to adapt your code in order to display the title, the content 
 
 ```php
  public function index()
-    {
-        $articles = Article::get();
-        
-        return view('articles.index',compact('articles'));
+    {     
+        return view('articles.index',['articles' => Article::latest()->get()]);
     }
 ```
 
-If we replace this line: `return view('articles.index',compact('articles'));` with this `dd($article)`, we see that we get a **collection**!
+Trough an array, we pass a **collection** at the view index in the folder articles, in this case *articles*
 
 That means that the controller answers the model in order to get data from the database, now we are sure we can pass data to the view. Let us display this collection in our **articles.index** view.
 
