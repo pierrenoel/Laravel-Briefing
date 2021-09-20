@@ -89,7 +89,7 @@ protected $fillable = ['title'];
 
 ### Tips
 
-Well, as a developers, we love injection dependency. For this case, instead of use the object request as we have seen above, we can create a new request class and inject it into our method.
+Well, as a developers, we love injection dependency. For this case, instead of using the object general request as we have seen above, we can create a new request class and inject it into our method.
 
 So, let us create a new object request
 
@@ -102,6 +102,20 @@ So, let us create a new object request
     {
         return true;
     }
+```
+
+Then use it ;)
+
+```php
+use App\Http\Requests\CreatePostRequest;
+
+...
+public function store(CreatePostRequest $request)
+{
+    //
+}
+...
+
 ```
 
 Set **true** to the return value.
