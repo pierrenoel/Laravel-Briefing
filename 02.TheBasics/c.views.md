@@ -17,15 +17,13 @@ Remember that views are the **'V'** of the **'MVC'** design pattern, that means 
 
 ```php
 // Show each article by its id
-Route::get('/article/show/{id}',function($id){
-    return view('article.edit',compact($id));
+Route::get('/article/show/{post:id}',function($id){
+    return view('article.edit',['id' => $id]);
 });
 
 ```
 
 ## Passing arguments to views
-
-Wait a second, I see a variable **'$id'** and a **compact()** function in some of the methods? Well to better understand, let us take an another example:
 
 1. First of all, take the route "get" we have created in the previous page, now we adapt it.
 

@@ -38,15 +38,15 @@ Route::post('/article/create',function(){
     ...
 });
 // Show the form of an article
-Route::get('/article/edit/{id}',function($id){
+Route::get('/article/edit/{post:id}',function($id){
     ...
 });
 // Update this specific article
-Route::put('/article/edit/{id}',function($id){
+Route::put('/article/edit/{post:id}',function($id){
     ...
 })
 // Delete a specific article
-Route::delete('/article/{id}',function($id){
+Route::delete('/article/{post:id}',function($id){
     ...
 });
 

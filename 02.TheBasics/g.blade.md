@@ -85,5 +85,9 @@ For instance:
 @endsection
 
 ```
+
+## Components
+- [Read this](https://laravel.com/docs/8.x/blade#components)
+
 - [Before](/02.TheBasics/f.models.md)
 - [Next](../03.Exercice/readme.md)
