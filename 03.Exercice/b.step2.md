@@ -32,10 +32,8 @@ Now we are going to select a specific article by its **id**. Don't forget to ada
 `Route::get('/article/{id},['ArticleController::class','show']);`
 
 ```php
-   public function show(Article $article,$id)
+   public function show(Article $article)
     {
-        $article = Article::findOrFail($id);
-
         dd($article);
     }
 

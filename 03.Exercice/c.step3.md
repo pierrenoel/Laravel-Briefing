@@ -33,7 +33,7 @@ There is a thing that we need to add in our form. **The csrf token**
 
 ```html
 <form method="POST" action="/article/create">
-    {{ csrf_field() }}
+    @csrf
     <label for="title">Title of the article</label>
     <input type="text" name="title" id="title">
     <input type="submit" value="Submit"></input> 
