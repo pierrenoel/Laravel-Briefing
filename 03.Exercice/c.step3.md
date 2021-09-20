@@ -86,6 +86,47 @@ To fix this problem, the error says you must set the property `title` to fillabl
 ```php
 protected $fillable = ['title'];
 ```
+
+### Tips
+
+Well, as a developers, we love injection dependency. For this case, instead of use the object request as we have seen above, we can create a new request class and inject it into our method.
+
+So, let us create a new object request
+
+```php artisan make:request CreatePostRequest```
+
+#### How does it work?
+
+```php
+ public function authorize()
+    {
+        return true;
+    }
+```
+
+Set **true** to the return value.
+
+Then, create two methods:
+- rules method
+- messages method
+
+```php
+ public function rules()
+    {
+        return [
+            'name' => 'required|max:5'
+        ];
+    }
+
+    public function messages()
+    {
+        return [
+          'name.required' => 'The name is required',
+          'name.max' => 'Maximum 5 letters please!'
+        ];
+    }
+```
+
 #### Exercice (8)
 1. Take your project **RestaurantLaravel**
 2. Show a form, get inputs and save them to the database
