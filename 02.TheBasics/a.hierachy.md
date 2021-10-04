@@ -62,5 +62,6 @@
 * Migrations are in the **database/migrations** folder
 
 Remain that to add some style and some javascript, you need to place them in the **public** folder!
+(Or, you want to use tailwind or sass in your project, you have to use [Laravel Mix](https://laravel.com/docs/8.x/mix))
 
 - [Next](b.routes.md)

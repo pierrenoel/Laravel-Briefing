@@ -89,7 +89,7 @@ protected $fillable = ['title'];
 
 ### Tips
 
-Well, as a developers, we love injection dependency. For this case, instead of using the object general request as we have seen above, we can create a new request class and inject it into our method.
+Instead of using the object general request as we have seen above, we can create a new request class and inject it into our method.
 
 So, let us create a new object request
 
