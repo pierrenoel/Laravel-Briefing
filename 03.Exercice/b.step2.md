@@ -29,7 +29,7 @@ That means that the controller answers the model in order to get data from the d
 
 Now we are going to select a specific article by its **id**. Don't forget to adapt the route if it is not done yet!
 
-`Route::get('/article/{post:id},['ArticleController::class','show']);`
+`Route::get('/article/{post:id},[ArticleController::class,'show']);`
 
 ```php
    public function show(Article $article)

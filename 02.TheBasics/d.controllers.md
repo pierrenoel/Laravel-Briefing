@@ -57,7 +57,7 @@ Now you have learned how to setup a new controller and you know what a controlle
 ```php
 use App\Http\Controllers\ArticleController;
 
-Route::get('/articles',['AuthController::class','index']);
+Route::get('/articles',[AuthController::class,'index']);
 
 ```
 

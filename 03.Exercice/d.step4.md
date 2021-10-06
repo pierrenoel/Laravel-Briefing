@@ -2,14 +2,14 @@
 
 Like we saw in the previous lesson, we have to pass the ID of the article in the URL. Well now, you're going to create two more routes:
 
-1. `Route::get('/articles/edit/{post:id}',['ArticleController::class','edit']);`
-2. `Route::patch('/articles/edit/{post:id},['ArticleController::class','update']);`
+1. `Route::get('/articles/edit/{post:id}',[ArticleController::class,'edit']);`
+2. `Route::patch('/articles/edit/{post:id},[ArticleController::class,'update']);`
 
 ## 1. Get the ID of the article
 
 So in order to modify a specific article, we need its ID. So, the only way to do that is to pass the ID in the URL.
 
-`Route::get('/articles/edit/{id}',['ArticleController::class','edit']);`
+`Route::get('/articles/edit/{id}',[ArticleController::class,'edit']);`
 
 ```php
     /**
