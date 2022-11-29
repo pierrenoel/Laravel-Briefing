@@ -20,7 +20,6 @@ $this->assertEquals(60, $result);
 
 ```xml
 
-```xml
 <env name="DB_CONNECTION" value="sqlite"/>
 <env name="DB_DATABASE" value=":memory:"/>
 ```
@@ -46,7 +45,7 @@ This file will be created in ```tests/Feature/PostTest.php```
 
 - In this file, you will found a function ```testExample()```. This is the function that will be executed when you run the test. (You can delete it)
 
-- To run de test, you can use the command ```php artisan test```
+- To run the test, you can use the command ```php artisan test```
 
 Let us focus on the Crud (Create) for the moment, then it will be your turn to write the test for the other methods.
 
