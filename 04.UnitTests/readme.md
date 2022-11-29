@@ -14,7 +14,7 @@ $result = array_sum($data);
 $this->assertEquals(60, $result);
 ```
 
-## Now, practice in Laraval (CRUD)
+## Now, practice in Laravel (CRUD)
 
 ### Uncomment those two lines in phpunit.xml (root folder)
 
