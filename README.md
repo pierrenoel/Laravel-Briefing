@@ -29,6 +29,9 @@ Welcome to Laravel Guide. This tutorial series is designed to provide you with a
 3. [Create an article](03.Exercice/c.step3.md)
 4. [Updade an article](03.Exercice/d.step4.md)
 
+## Unit Tests
+1. [Unit Tests](04.UnitTests/readme.md)
+
 ### Challenge
 1. [Invoices and so on ...](Challenge)
 
