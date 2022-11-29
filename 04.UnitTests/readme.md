@@ -64,8 +64,6 @@ use RefreshDatabase; // It is a trait that will be used to refresh the database 
 
         $request->assertValid(['title','content']);
 
-        $request->assertOk();
-
         $request->assertRedirect(route('posts'));
     }
 //...
