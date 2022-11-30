@@ -57,14 +57,25 @@ use RefreshDatabase; // It is a trait that will be used to refresh the database 
 
     public function test_can_create_a_post() : void 
     {
-      $request = $this->post('/post/create',[
-            'title' => 'This is a title',
-            'content' => 'This is the content of the post'
-        ]);
+       $this->withoutExceptionHandling();
 
-        $request->assertValid(['title','content']);
+       $this->assertEquals(0,Article::count());
 
-        $request->assertRedirect(route('posts'));
+       $data = [
+        'title' => 'Ceci est mon premier article',
+        'content' => 'Hello there'
+       ];
+
+       $response = $this->post('/article/store',$data);
+
+       $this->assertEquals(1,Article::count());
+
+       $article = Article::first();
+
+       $this->assertEquals($data['title'],$article->title);
+       $this->assertEquals($data['content'],$article->content);
+
+       $response->assertRedirect(route('posts'));
     }
 //...
 ```
